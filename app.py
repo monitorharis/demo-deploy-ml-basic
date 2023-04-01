@@ -10,7 +10,7 @@ input_text = st.text_area("Enter text here:")
 if input_text:
     
     # Lakukan prediksi
-    prediction = predict_text(text)
+    prediction = predict_text(input_text)
 
     # Tampilkan hasil
     st.write("Sentiment:")
